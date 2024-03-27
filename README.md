@@ -15,7 +15,7 @@
 
 - 📫 How to reach me **devang.r.kale@gmail.com**
 
-- 📄 My Resume [Resume](https://drive.google.com/file/d/1a0yiLGiAy02UIXik5JcOKtoaX0hQA67v/view?usp=sharing)
+- 📄 My Resume [Resume](https://drive.google.com/file/d/1CfpoDR93K5wGipV5o39x8Gc3QHID8JB8/view?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
