@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=devangkale10&label=Profile%20views&color=0e75b6&style=flat" alt="devangkale10" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=devangkale10" alt="devangkale10" /></a> </p>
+<p align="left"> [![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy) </p>
 
 - 🔭 I’m currently working on **a cutting-edge NLP algorithm designed to accurately detect and redact sensitive information in text**
 
