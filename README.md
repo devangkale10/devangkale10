@@ -2,7 +2,7 @@
 <h3 align="center">Data Scientist | Generative AI • Machine Learning • Data Engineering</h3>
 
 <p align="center">
-  📍 Currently in the USA | Relocating to India
+  📍 Currently in the USA
 </p>
 
 <p align="center">
