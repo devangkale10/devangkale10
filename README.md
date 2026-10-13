@@ -9,7 +9,7 @@
   <a href="https://www.linkedin.com/in/devang-kale/">LinkedIn</a> •
   <a href="mailto:devang.r.kale@gmail.com">Email</a> •
   <a href="https://public.tableau.com/app/profile/devang.kale8055/vizzes">Tableau</a> •
-  <a href="https://drive.google.com/file/d/1P3IRd28ha7DPZRAWylSA6EbpXpfyJ7hY/view?usp=sharing">Resume</a>
+  <a href="https://drive.google.com/file/d/1KPcXbrV3DnTY0SXdlL1jy5kvs-ns5LXq/view?usp=sharing">Resume</a>
 </p>
 
 ## 👨‍💻 About Me
