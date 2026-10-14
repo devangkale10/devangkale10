@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>I turn messy institutional data into AI products people actually use, and I measure whether they work.</b><br/>
+  <b>I’ve worked every layer of the stack: moving the data, modeling it, and now putting LLMs to work on it.</b><br/>
   4+ years across finance, healthcare, and higher education &nbsp;·&nbsp; 📍 Based in the USA
 </p>
 
