@@ -1,12 +1,12 @@
 <h1 align="center">Hi, I'm Devang Kale 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Data+Scientist+%7C+GenAI+%E2%80%A2+ML+%E2%80%A2+Data+Engineering;I+build+RAG+assistants+that+find+the+right+data;LLM+pipelines+with+measured+accuracy;Data+systems+that+give+teams+hours+back" alt="Data Scientist | GenAI, Machine Learning, Data Engineering" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Data+Scientist+%7C+GenAI+%E2%80%A2+ML+%E2%80%A2+Data+Engineering;RAG+assistants+that+find+the+right+data;LLM+pipelines+with+measured+accuracy;Explainable+ML+for+clinical+risk;A%2FB+tests+that+move+conversion;ETL+at+1M%2B+records+a+day" alt="Data Scientist | GenAI, Machine Learning, Data Engineering" />
 </p>
 
 <p align="center">
-  <b>I’ve worked every layer of the stack: moving the data, modeling it, and now putting LLMs to work on it.</b><br/>
-  4+ years across finance, healthcare, and higher education &nbsp;·&nbsp; 📍 Based in the USA
+  <b>I've worked every layer of the stack: moving the data, modeling it, and now putting LLMs to work on it.</b><br/>
+  4+ years across finance, healthcare, and higher education &nbsp;·&nbsp; 📍 USA, relocating to India
 </p>
 
 <p align="center">
@@ -17,61 +17,114 @@
 </p>
 
 > [!TIP]
-> **Short on time?** I build RAG assistants, LLM classification pipelines, and Snowflake data workflows end to end: data modeling, prompting and retrieval, evaluation, and deployment. My focus is **Data Science, Applied AI, and ML Engineering** on systems that run in production. Start with the numbers below or grab my [resume](https://drive.google.com/file/d/1KPcXbrV3DnTY0SXdlL1jy5kvs-ns5LXq/view?usp=sharing).
+> **Short on time?** I've built financial ETL at enterprise scale, explainable clinical ML in a research lab, A/B tests that lifted donor conversion, and production GenAI at the University of Florida. My focus is **Data Science, Applied AI, and ML Engineering** on systems that run in production. Start with the numbers below or grab my [resume](https://drive.google.com/file/d/1KPcXbrV3DnTY0SXdlL1jy5kvs-ns5LXq/view?usp=sharing).
 
 ## 📈 Impact at a Glance
 
 <table>
   <tr>
-    <td align="center" width="25%">
+    <td align="center" width="33%">
       <h3>60% → 85%</h3>
-      <sub>Recall@5 on a RAG data-discovery assistant</sub>
+      <sub>Recall@5 on a RAG data-discovery assistant</sub><br/>
+      <sub><i>University of Florida</i></sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="33%">
       <h3>~90%</h3>
-      <sub>agreement with human labels on 16K+ posts a year</sub>
+      <sub>agreement with human labels on 16K+ posts a year</sub><br/>
+      <sub><i>University of Florida</i></sub>
     </td>
-    <td align="center" width="25%">
-      <h3>250 hrs</h3>
-      <sub>of manual documentation saved across 20K+ columns</sub>
-    </td>
-    <td align="center" width="25%">
+    <td align="center" width="33%">
       <h3>350 hrs/yr</h3>
-      <sub>of staff time saved by automated reporting</sub>
+      <sub>of staff time saved by automated reporting</sub><br/>
+      <sub><i>University of Florida</i></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <h3>+15%</h3>
+      <sub>donor conversion from A/B-tested email experiments</sub><br/>
+      <sub><i>Changing The Present</i></sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>5% → 1%</h3>
+      <sub>data mismatch rate in financial-reporting ETL</sub><br/>
+      <sub><i>Infosys</i></sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>2× faster</h3>
+      <sub>daily reporting extract, from ~20 to ~10 minutes</sub><br/>
+      <sub><i>Infosys</i></sub>
     </td>
   </tr>
 </table>
 
-## 🚀 What I've Shipped
+## 💼 Experience
+
+| Role | Organization | Dates |
+| --- | --- | --- |
+| **Data Analyst II** | University of Florida, Office of Assessment and Research | Nov 2024 – Present |
+| **Data Scientist Intern** | Changing The Present | Aug 2024 – Nov 2024 |
+| **AI/ML Research Assistant** | PRISMAP Labs, University of Florida | May 2023 – Aug 2023 |
+| **Data Engineer** | Infosys | Nov 2020 – Jul 2022 |
+
+## 🚀 What I've Shipped at UF
 
 <sub>Production work at the University of Florida. The code is internal, but I'm happy to walk through the architecture and design decisions.</sub>
 
 ### 🤖 RAG Data Discovery Assistant
-Helps UF staff discover what institutional data exists and turn vague questions into well-scoped data requests.
+Helps UF staff discover institutional datasets and turn vague questions into well-scoped data requests.
 - **How:** LangChain + ChromaDB retrieval with hybrid search and reranking, grounded in an LLM-built data dictionary, served through Streamlit
 - **Result:** Recall@5 improved from **60% to 85%**; deployed for staff on the UF network
 
-`LangChain` `ChromaDB` `Hybrid Search` `Reranking` `Streamlit`
+`Python` `LangChain` `ChromaDB` `Hybrid Search` `Reranking` `Streamlit`
 
 ### 📚 LLM-Powered Data Dictionary
-Generates grounded definitions, data types, and value descriptions for **~200 tables and 20K+ columns** directly from Snowflake.
-- **How:** GPT-5 grounded in real schema and column values, with a human review step for the columns that most need checking
-- **Result:** ~**250 hours** of manual documentation saved; it is also the knowledge base behind the RAG assistant above
+Generates grounded column definitions for **~200 Snowflake views (20K+ columns)**, built as the knowledge base for RAG applications.
+- **How:** GPT-5 with LiteLLM for model routing and Snowflake MCP for metadata retrieval, plus a human review step for the columns that most need checking
+- **Result:** ~**250 hours** of manual documentation saved; powers the RAG assistant above
 
-`GPT-5` `Snowflake` `Python` `Human-in-the-Loop`
+`GPT-5` `LiteLLM` `Snowflake MCP` `Python` `Human-in-the-Loop`
 
 ### 🧭 Student Concern Routing with LLMs
 A weekly pipeline that classifies r/ufl posts and routes high-priority student concerns to the right one of **15 Student Life units**.
 - **How:** Reddit API → GPT-5 multi-label classification (few-shot prompts, schema-constrained JSON) → Snowflake → Power BI dashboard
-- **Result:** **16K+ posts a year** classified at **~90% agreement** with a manually labeled gold set
+- **Result:** **16K+ posts a year** classified at **~90% agreement** with a manually labeled evaluation set
 
 `GPT-5` `Reddit API` `Structured Outputs` `Snowflake` `Power BI`
 
-### ⚙️ Automated Analytics Pipeline
-A Snowflake + Python reporting pipeline that integrates **10 data sources** and replaces recurring manual reporting.
+### 🥫 Food Pantry Reporting Pipeline
+Snowflake + Python ETL that pulls **10 institutional data sources** into the university's food pantry dashboard.
+- **How:** DuckDB SQL with window functions for deduplication, weekly automated reporting, and failure alerts so nothing breaks silently
 - **Result:** ~**350 staff hours a year** saved
 
-`Python` `Snowflake` `SQL` `Automation`
+`Python` `Snowflake` `DuckDB` `SQL` `ETL`
+
+### 🗺️ Esports Participation Analysis
+Geospatial analysis of college building locations and Gator Esports Center participation across **50K+ students**.
+- **Result:** Found an association between proximity and participation, and flagged low-participation colleges for targeted outreach
+
+`Python` `Geospatial Analysis` `Statistics`
+
+## 🧭 Before UF
+
+### 💝 Changing The Present · Data Scientist Intern
+- Built a **Python A/B testing framework** covering sample-size planning, significance testing, and automated reporting for ~10 email experiments. Winning variants raised **donor conversion by 15%**.
+- Automated influencer prospecting with a **Selenium scraper** that collected public contact emails from **10K+ creator profiles** into cleaned Google Sheets leads, cutting manual research time by **40%**.
+
+`Python` `SciPy` `statsmodels` `A/B Testing` `Selenium`
+
+### 🏥 PRISMAP Labs, University of Florida · AI/ML Research Assistant
+- Benchmarked logistic regression, random forest, and XGBoost across **30 model configurations** tracked in MLflow to guide model selection for **postoperative complication prediction**.
+- Explained individual patient risk and overall model behavior with **SHAP, LIME, and partial dependence plots**, then reviewed the findings with clinicians for clinical plausibility.
+
+`Python` `scikit-learn` `XGBoost` `MLflow` `SHAP` `LIME`
+
+### 🏦 Infosys · Data Engineer
+- Built **Python/pandas and SAP HANA ETL** for financial reporting, processing **1M+ records a day**, with automated source-to-target reconciliation that cut mismatch rates from **5% to 1%**.
+- Optimized SQL with execution plans, CTEs, window functions, and partitioned joins, **halving the daily extract runtime** from ~20 to ~10 minutes.
+- Turned business reporting requirements into data models, queries, and dashboards supporting initiatives tied to **~$5M in annual client revenue growth**.
+
+`Python` `pandas` `SAP HANA` `SQL` `ETL`
 
 ## 🧪 Open-Source Projects
 
@@ -82,7 +135,7 @@ A Snowflake + Python reporting pipeline that integrates **10 data sources** and 
 ### 🔐 [PII Detection & Redaction](https://github.com/devangkale10/PII-Redaction-System)
 A hybrid pipeline combining **spaCy NER, Hugging Face Transformers, and regex** to find and redact sensitive information in free text.
 
-**Result:** 80% detection accuracy on sensitive fields
+**Result:** 90% detection accuracy on sensitive fields
 
 `Python` `spaCy` `Hugging Face` `pandas` `pytest`
 
@@ -90,9 +143,9 @@ A hybrid pipeline combining **spaCy NER, Hugging Face Transformers, and regex** 
     <td width="50%" valign="top">
 
 ### 🛍️ [Visual Product Recommender](https://github.com/devangkale10/Product-Recommendation-using-NLP-and-CNN)
-Recommends similar items across **16K+ apparel products** by combining **NLP title matching** with **VGG-16 image features**.
+Recommends similar items across **16K+ Amazon apparel products** using TF-IDF and Word2Vec for title similarity and pretrained **VGG16** features for visual similarity.
 
-**Why it matters:** surfaces items that look alike, not just ones with similar titles
+**Result:** 80% Precision@10
 
 `Python` `scikit-learn` `TensorFlow/Keras` `NLP` `Computer Vision`
 
@@ -100,39 +153,27 @@ Recommends similar items across **16K+ apparel products** by combining **NLP tit
   </tr>
 </table>
 
-## 🧠 How I Work
-
-- 📏 **Measure before shipping.** Recall@k for retrieval, agreement with gold labels for classifiers, hours saved for automation.
-- 🧷 **Ground LLMs in real data.** Retrieval over trusted sources, schema-constrained outputs, and human review where mistakes are costly.
-- 🔁 **Build things that keep running.** Scheduled pipelines with failure alerts, not one-off notebooks.
-
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,aws,docker,postgres,mongodb,git,githubactions" alt="Python, PyTorch, TensorFlow, scikit-learn, AWS, Docker, PostgreSQL, MongoDB, Git, GitHub Actions" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,aws,docker,kubernetes,postgres,mongodb,selenium,git,github" alt="Python, PyTorch, TensorFlow, scikit-learn, AWS, Docker, Kubernetes, PostgreSQL, MongoDB, Selenium, Git, GitHub" />
 </p>
 
 | Area | Tools |
 | --- | --- |
-| **GenAI & NLP** | ![OpenAI](https://img.shields.io/badge/OpenAI%20APIs-412991?style=flat-square) ![LiteLLM](https://img.shields.io/badge/LiteLLM-6E56CF?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-2F81F7?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white) |
-| **Machine Learning** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) ![SHAP](https://img.shields.io/badge/SHAP%20%7C%20LIME-555555?style=flat-square) |
-| **Data & Engineering** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square) ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black) ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) |
-| **Cloud & Dev Tools** | ![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20Lambda%20%7C%20EC2%20%7C%20Redshift-FF9900?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) |
-| **Analytics & BI** | ![A/B Testing](https://img.shields.io/badge/A%2FB%20Testing-6E7781?style=flat-square) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![statsmodels](https://img.shields.io/badge/statsmodels-4B0082?style=flat-square) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) |
-
-## 💼 Experience
-
-| Role | Organization | Dates |
-| --- | --- | --- |
-| **Data Analyst II** | University of Florida | Nov 2024 – Present |
-| **Data Scientist Intern** | Changing The Present | Aug 2024 – Nov 2024 |
-| **AI/ML Research Assistant** | PRISMAP Labs, University of Florida | May 2023 – Aug 2023 |
-| **Data Engineer** | Infosys | Nov 2020 – Jul 2022 |
+| **GenAI & LLM Systems** | ![OpenAI](https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square) ![LiteLLM](https://img.shields.io/badge/LiteLLM-6E56CF?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-Hybrid%20Search%20%7C%20Reranking-2F81F7?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-111111?style=flat-square&logo=modelcontextprotocol&logoColor=white) ![LLM Evaluation](https://img.shields.io/badge/LLM%20Evaluation-0E8A16?style=flat-square) ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-8250DF?style=flat-square) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white) |
+| **Machine Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square) ![Explainable AI](https://img.shields.io/badge/Explainable%20AI-SHAP%20%7C%20LIME-555555?style=flat-square) |
+| **Data & Engineering** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square) ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black) ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![AWS Redshift](https://img.shields.io/badge/AWS%20Redshift-8C4FFF?style=flat-square) ![SAP HANA](https://img.shields.io/badge/SAP%20HANA-0FAAFF?style=flat-square&logo=sap&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) |
+| **MLOps & Engineering** | ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI%2FCD-2F81F7?style=flat-square) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-Lambda%20%7C%20S3%20%7C%20EC2-FF9900?style=flat-square) |
+| **Statistics & Experimentation** | ![A/B Testing](https://img.shields.io/badge/A%2FB%20Testing-6E7781?style=flat-square) ![Power Analysis](https://img.shields.io/badge/Power%20Analysis-6E7781?style=flat-square) ![Hypothesis Testing](https://img.shields.io/badge/Hypothesis%20Testing-6E7781?style=flat-square) ![Regression](https://img.shields.io/badge/Regression-6E7781?style=flat-square) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![statsmodels](https://img.shields.io/badge/statsmodels-4B0082?style=flat-square) |
+| **Analytics & Visualization** | ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square) ![Geospatial Analysis](https://img.shields.io/badge/Geospatial%20Analysis-2E8B57?style=flat-square) |
 
 ## 🎓 Education
 
-- **M.S. in Computer Science**, University of Florida
-- **B.E. in Information Technology**, University of Pune
+| Degree | School | Years |
+| --- | --- | --- |
+| **M.S. in Computer Science** (GPA 3.7/4) | University of Florida, USA | 2022 – 2024 |
+| **B.E. in Information Technology** (GPA 8.4/10) | University of Pune, India | 2016 – 2020 |
 
 ## 📬 Let's Talk
 
