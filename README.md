@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>I've worked every layer of the stack: moving the data, modeling it, and now putting LLMs to work on it.</b><br/>
+  <b>Data Scientist working through every layer of the stack: moving the data, modeling it, and now putting LLMs to work on it.</b><br/>
   4+ years across finance, healthcare, and higher education &nbsp;·&nbsp; 📍 Gainesville, FL
 </p>
 
