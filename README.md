@@ -16,7 +16,7 @@
 </p>
 
 > [!TIP]
-> **Short on time?** I've built financial ETL at enterprise scale, explainable clinical ML in a research lab, A/B tests that lifted donor conversion, and production GenAI and predictive analytics at the University of Florida. My focus is **Data Science, Applied AI, and ML Engineering** on systems that run in production. Start with what I've shipped below.
+> **Short on time?** I've built financial ETL at enterprise scale, explainable clinical ML in a research lab, A/B tests that lifted donor conversion, and GenAI and predictive analytics at the University of Florida. My focus is **Data Science, Applied AI, and ML Engineering** on systems. Start with what I've shipped below.
 
 ## 💼 Experience
 
