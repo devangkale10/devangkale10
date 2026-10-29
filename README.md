@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Devang Kale 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Data+Scientist+%7C+GenAI+%E2%80%A2+ML+%E2%80%A2+Data+Engineering;RAG+assistants+that+find+the+right+data;LLM+systems+with+measured+accuracy;Predictive+ML+for+student+success;Explainable+ML+for+clinical+risk;Pipelines+that+keep+data+trustworthy" alt="Data Scientist | GenAI, Machine Learning, Data Engineering" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Data+Scientist+%7C+GenAI+%E2%80%A2+ML+%E2%80%A2+Data+Engineering" alt="Data Scientist | GenAI, Machine Learning, Data Engineering" />
 </p>
 
 <p align="center">
